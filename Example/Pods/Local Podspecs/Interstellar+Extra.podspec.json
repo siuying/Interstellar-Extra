@@ -22,13 +22,5 @@
 
     ]
   },
-  "source_files": "Pod/Classes/Foundation/**/*",
-  "subspecs": [
-    {
-      "name": "UIKit"
-    },
-    {
-      "name": "Foundation"
-    }
-  ]
+  "source_files": "Pod/Classes/**/*"
 }

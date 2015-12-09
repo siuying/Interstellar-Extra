@@ -18,12 +18,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'Interstellar'
-
-  s.subspec 'UIKit' do |cs|
-    s.source_files = 'Pod/Classes/UIKit/**/*'
-  end
-
-  s.subspec 'Foundation' do |cs|
-    s.source_files = 'Pod/Classes/Foundation/**/*'
-  end
+  s.source_files = 'Pod/Classes/**/*'
 end
