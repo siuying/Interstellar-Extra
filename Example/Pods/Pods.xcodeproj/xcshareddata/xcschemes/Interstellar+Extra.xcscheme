@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '315AB39C7B9254B72323C09F'
+               BlueprintIdentifier = '4C4BA526DFCCA5E52E406B9A'
                BlueprintName = 'Interstellar+Extra'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Interstellar_Extra.framework'>

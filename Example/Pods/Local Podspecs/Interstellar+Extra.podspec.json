@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of Interstellar_Extra.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Interstellar_Extra",
+  "homepage": "https://github.com/siuyinh/Interstellar+Extra",
   "license": "MIT",
   "authors": {
     "Francis Chong": "francis@ignition.hk"
   },
   "source": {
-    "git": "https://github.com/siuying/Interstellar_Extra.git",
+    "git": "https://github.com/siuying/Interstellar+Extra.git",
     "tag": "0.1.0"
   },
   "social_media_url": "https://twitter.com/siuying",
@@ -17,10 +17,29 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "Interstellar": [
 
     ]
-  }
+  },
+  "source_files": "Pod/Classes/Foundation/**/*",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "Interstellar+Extra/UIKit": [
+
+        ],
+        "Interstellar+Extra/Foundation": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIKit"
+    },
+    {
+      "name": "Foundation"
+    }
+  ]
 }

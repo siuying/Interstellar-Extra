@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1299DE118586C36267937DC4 /* Pods_Interstellar_Extra_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AA3CDA9B38688EF5993917 /* Pods_Interstellar_Extra_Tests.framework */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* NotificationObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* NotificationObserverTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046F3828B221F77DC15A7DDB /* Pods-Interstellar_Extra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interstellar_Extra_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Interstellar_Extra_Tests/Pods-Interstellar_Extra_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		400CE0235FDA6551D02EE63D /* Pods-Interstellar_Extra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interstellar_Extra_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Interstellar_Extra_Tests/Pods-Interstellar_Extra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = Interstellar_Extra_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* Interstellar_Extra_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Interstellar_Extra_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* NotificationObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserverTests.swift; sourceTree = "<group>"; };
 		95AA3CDA9B38688EF5993917 /* Pods_Interstellar_Extra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interstellar_Extra_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6889A05C81F349683621F17 /* Interstellar_Extra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Interstellar_Extra.podspec; path = ../Interstellar_Extra.podspec; sourceTree = "<group>"; };
+		B6889A05C81F349683621F17 /* Interstellar+Extra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Interstellar+Extra.podspec"; path = "../Interstellar+Extra.podspec"; sourceTree = "<group>"; };
 		F527F0E2D57C910BD245BD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5EEAC18207BBE520042C00A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* Interstellar_Extra_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* NotificationObserverTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -91,7 +91,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B6889A05C81F349683621F17 /* Interstellar_Extra.podspec */,
+				B6889A05C81F349683621F17 /* Interstellar+Extra.podspec */,
 				F5EEAC18207BBE520042C00A /* README.md */,
 				F527F0E2D57C910BD245BD6A /* LICENSE */,
 			);
@@ -118,7 +118,7 @@
 			);
 			name = Interstellar_Extra_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* Interstellar_Extra_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* NotificationObserverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

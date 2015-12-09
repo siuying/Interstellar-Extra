@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Interstellar_Extra_Tests/Interstellar.framework"
   install_framework "Pods-Interstellar_Extra_Tests/Interstellar_Extra.framework"
+  install_framework "Pods-Interstellar_Extra_Tests/Nimble.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Interstellar_Extra_Tests/Interstellar.framework"
   install_framework "Pods-Interstellar_Extra_Tests/Interstellar_Extra.framework"
+  install_framework "Pods-Interstellar_Extra_Tests/Nimble.framework"
 fi
