@@ -17,6 +17,18 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
   s.dependency 'Interstellar'
+
+  s.subspec 'Core' do |cs|
+    cs.dependency 'Interstellar+Extra/UIKit'
+    cs.dependency 'Interstellar+Extra/Foundation'
+  end
+
+  s.subspec 'UIKit' do |cs|
+    s.source_files = 'Pod/Classes/UIKit/**/*'
+  end
+
+  s.subspec 'Foundation' do |cs|
+    s.source_files = 'Pod/Classes/Foundation/**/*'
+  end
 end
