@@ -1,6 +1,6 @@
 # Interstellar Extra
 
-WIP: Foundation and UIKit extensions to Interstella.
+WIP: Foundation and UIKit extensions to [Interstellar](https://github.com/JensRavens/Interstellar).
 
 ## Usage
 
@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Interstellar_Extra is available through [CocoaPods](http://cocoapods.org). To install
+Interstellar+Extra is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
