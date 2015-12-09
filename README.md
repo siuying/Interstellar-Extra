@@ -1,9 +1,6 @@
-# Interstellar_Extra
+# Interstellar Extra
 
-[![CI Status](http://img.shields.io/travis/Francis Chong/Interstellar_Extra.svg?style=flat)](https://travis-ci.org/Francis Chong/Interstellar_Extra)
-[![Version](https://img.shields.io/cocoapods/v/Interstellar_Extra.svg?style=flat)](http://cocoapods.org/pods/Interstellar_Extra)
-[![License](https://img.shields.io/cocoapods/l/Interstellar_Extra.svg?style=flat)](http://cocoapods.org/pods/Interstellar_Extra)
-[![Platform](https://img.shields.io/cocoapods/p/Interstellar_Extra.svg?style=flat)](http://cocoapods.org/pods/Interstellar_Extra)
+WIP: Foundation and UIKit extensions to Interstella.
 
 ## Usage
 
@@ -17,7 +14,7 @@ Interstellar_Extra is available through [CocoaPods](http://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Interstellar_Extra"
+pod "Interstellar+Extra", git: "https://github.com/siuying/Interstellar+Extra.git"
 ```
 
 ## Author
@@ -26,4 +23,4 @@ Francis Chong, francis@ignition.hk
 
 ## License
 
-Interstellar_Extra is available under the MIT license. See the LICENSE file for more info.
+Interstellar+Extra is available under the MIT license. See the LICENSE file for more info.
