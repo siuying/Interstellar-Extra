@@ -4,13 +4,8 @@ PODS:
     - Interstellar/Warpdrive (= 1.4.0)
   - Interstellar+Extra (0.1.0):
     - Interstellar
-    - Interstellar+Extra/Core (= 0.1.0)
     - Interstellar+Extra/Foundation (= 0.1.0)
     - Interstellar+Extra/UIKit (= 0.1.0)
-  - Interstellar+Extra/Core (0.1.0):
-    - Interstellar
-    - Interstellar+Extra/Foundation
-    - Interstellar+Extra/UIKit
   - Interstellar+Extra/Foundation (0.1.0):
     - Interstellar
   - Interstellar+Extra/UIKit (0.1.0):
@@ -30,7 +25,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Interstellar: 40fc666872436d6c1b3524c59437ebdb5dec1c6a
-  Interstellar+Extra: b5f626119afd448e7edcb496f2d42567f62d401b
+  Interstellar+Extra: 8ba94814ca7a780887cbac5812521bc2707c967c
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
 
 COCOAPODS: 0.39.0
