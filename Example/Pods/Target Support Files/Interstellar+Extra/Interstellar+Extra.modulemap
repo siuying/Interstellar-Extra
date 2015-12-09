@@ -1,0 +1,6 @@
+framework module Interstellar_Extra {
+  umbrella header "Interstellar+Extra-umbrella.h"
+
+  export *
+  module * { export * }
+}

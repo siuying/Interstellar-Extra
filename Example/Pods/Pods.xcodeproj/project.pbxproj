@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0343B89F2A0915D0B858E3791658E4 /* Pods-Interstellar_Extra_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0858BE079B1DC8F4F2DD423ACC351327 /* Pods-Interstellar_Extra_Tests-dummy.m */; };
+		20560D3BECC5A57FE4FCDF7F7AECEB0E /* Pods-Interstellar_Extra_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C0E6ADA4F578E87E0B854472A67A5C /* Pods-Interstellar_Extra_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235AD93BADFFE06BA44BE6ABD7457D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6160C28961B3CF36BF608B7CBC2060D8 /* Foundation.framework */; };
+		29835DFCFAB89F3C72EE2E1E0FE8CB33 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD99725696F6C9B295B519DDD8AA40 /* Signal.swift */; };
+		325436F9B0A07A7C6503C7307190DFA0 /* Interstellar+Extra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF25062E3EF308997C3A19104C2B3C /* Interstellar+Extra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3957CC6C8D9002A58F124D4BC380DBF0 /* Interstellar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870CCDF409FE1F59C700AE47B5236D4 /* Interstellar-dummy.m */; };
+		511405C8720ADD5F8045EB26A9B56551 /* Interstellar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65C9C15B3AF4405A32BCD07AA20BD90 /* Interstellar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A863CB0CFAA89E17F4C040E075B1523 /* Waiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00D27CED5E801A0F0098636CEDAD731 /* Waiting.swift */; };
+		78E23E3C422488CFCD59EF2602470493 /* Interstellar+Extra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 711632997690EA3904CD312DF7990597 /* Interstellar+Extra-dummy.m */; };
+		8626BCC3406A93A7D0CE502B9098086E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27315C6A0538103CCDEB27CC0886873D /* Result.swift */; };
+		8F78A3CE431B389C31970DC5591D0BE3 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460C2DD1045752F03A2E39458407BB4 /* Threading.swift */; };
+		9DA882DD7057124223239C23C65AF866 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB76FF6A75957C1C8954F6C9DFFA620 /* Debounce.swift */; };
+		B26422642B27DCC9B2061C14BE36A68D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5737D93CC0C323BC22E796D03A1A4385 /* Delay.swift */; };
+		B29E28DB845C3B04A127A56593507E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6160C28961B3CF36BF608B7CBC2060D8 /* Foundation.framework */; };
+		C15BFAFFD1DEC6F067016B8BFB5D1BA5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E9F3F1F9060AA8B77F737213711DC /* ReplaceMe.swift */; };
+		DF6F7DF4483CD614F6538593DE085078 /* Interstellar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1008537932573A955B33BBFE977E771 /* Interstellar.framework */; };
+		F2981AB8FD28964FC5DF5BD852321087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6160C28961B3CF36BF608B7CBC2060D8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2762315FA220131AA89F49ADF648EA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A95BFDB493B2A78C21420CDBCF81A5;
+			remoteInfo = Interstellar;
+		};
+		71A6711A35DEF201BD7D63A14A67F5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A95BFDB493B2A78C21420CDBCF81A5;
+			remoteInfo = Interstellar;
+		};
+		CCE4D6005C70486DF4413185FE2A9851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BAE4E81CAD53B81B53FCCF512AB8CC;
+			remoteInfo = "Interstellar+Extra";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B177EB3731291D21574B0EDD5E8916 /* Interstellar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar-prefix.pch"; sourceTree = "<group>"; };
+		0858BE079B1DC8F4F2DD423ACC351327 /* Pods-Interstellar_Extra_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Interstellar_Extra_Tests-dummy.m"; sourceTree = "<group>"; };
+		0870CCDF409FE1F59C700AE47B5236D4 /* Interstellar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Interstellar-dummy.m"; sourceTree = "<group>"; };
+		1A1973A14DF72094D805AC8A4410C92C /* Pods-Interstellar_Extra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Interstellar_Extra_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		24DF25062E3EF308997C3A19104C2B3C /* Interstellar+Extra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar+Extra-umbrella.h"; sourceTree = "<group>"; };
+		27315C6A0538103CCDEB27CC0886873D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		2B43FC362EB3B62B38A20A5EA5A0C1C3 /* Pods_Interstellar_Extra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interstellar_Extra_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5201FBC97713F2FD06708270D34D83 /* Pods-Interstellar_Extra_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Interstellar_Extra_Tests.modulemap"; sourceTree = "<group>"; };
+		38D7CEA6F44A1F63082F793CFE538A95 /* Interstellar+Extra-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar+Extra-prefix.pch"; sourceTree = "<group>"; };
+		3FE1FB0C54A24B96B6915D726014E7E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441E9F3F1F9060AA8B77F737213711DC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		4460C2DD1045752F03A2E39458407BB4 /* Threading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Threading.swift; path = Sources/Threading.swift; sourceTree = "<group>"; };
+		4B4A3288302ADEC5579790C50DDA502E /* Pods-Interstellar_Extra_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Interstellar_Extra_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D36C2E97BFF3A2A5610C7AD9B8997F7 /* Interstellar+Extra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Interstellar+Extra.modulemap"; sourceTree = "<group>"; };
+		54A2A3837C58CE7290D4D9B78B333D7C /* Pods-Interstellar_Extra_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Interstellar_Extra_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5737D93CC0C323BC22E796D03A1A4385 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Sources/Delay.swift; sourceTree = "<group>"; };
+		5BA9D38BEF17C57C5412AF8EFD13895F /* Interstellar_Extra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interstellar_Extra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6160C28961B3CF36BF608B7CBC2060D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61D29CB75201F9FD310092BA4F485F98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C0E6ADA4F578E87E0B854472A67A5C /* Pods-Interstellar_Extra_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Interstellar_Extra_Tests-umbrella.h"; sourceTree = "<group>"; };
+		711632997690EA3904CD312DF7990597 /* Interstellar+Extra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Interstellar+Extra-dummy.m"; sourceTree = "<group>"; };
+		756D495712A0D0B1855C89288B96219B /* Interstellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interstellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CD99725696F6C9B295B519DDD8AA40 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
+		80128281D895FCF9C60130A70EDBEE61 /* Pods-Interstellar_Extra_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Interstellar_Extra_Tests-resources.sh"; sourceTree = "<group>"; };
+		931FA8BA6505B5B50D0B83C7FDEA97E1 /* Interstellar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Interstellar.xcconfig; sourceTree = "<group>"; };
+		96005787E9DE64DDE579D40D86C86F4E /* Interstellar+Extra.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Interstellar+Extra.xcconfig"; sourceTree = "<group>"; };
+		962ADDA4B493CE40E8CF139B68A245AF /* Pods-Interstellar_Extra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Interstellar_Extra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98839CCA76FCFC81118D751C85E7CB28 /* Interstellar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Interstellar.modulemap; sourceTree = "<group>"; };
+		A1008537932573A955B33BBFE977E771 /* Interstellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interstellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB76FF6A75957C1C8954F6C9DFFA620 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = Sources/Debounce.swift; sourceTree = "<group>"; };
+		B65C9C15B3AF4405A32BCD07AA20BD90 /* Interstellar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEFA8F127E8D3BD772094C14C20FA19C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00D27CED5E801A0F0098636CEDAD731 /* Waiting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Waiting.swift; path = Sources/Waiting.swift; sourceTree = "<group>"; };
+		FD0ABA0F537BD8288490212EE2CB8E6E /* Pods-Interstellar_Extra_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Interstellar_Extra_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FFFDAF2796AFF087435C3C2A1CAA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235AD93BADFFE06BA44BE6ABD7457D6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E564B8888EC7D636ECC6A3B18DA70CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29E28DB845C3B04A127A56593507E3D /* Foundation.framework in Frameworks */,
+				DF6F7DF4483CD614F6538593DE085078 /* Interstellar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2CD42B79A1FC9D795EC0E9BBF12D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2981AB8FD28964FC5DF5BD852321087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD4E8D2E8F73908AB62EBF54074661D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85D2DAB30701648BA3C6967D00358EE5 /* Pods-Interstellar_Extra_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		572E020FEB99DD8F59F1FCA747A79BED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				441E9F3F1F9060AA8B77F737213711DC /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69EA06837F895E7AF3232E09E03400D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1008537932573A955B33BBFE977E771 /* Interstellar.framework */,
+				91291DCF3C49527538CE6ADD3D35A018 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				938DDAECAD53BEE35EF65C63DC7C4674 /* Development Pods */,
+				69EA06837F895E7AF3232E09E03400D8 /* Frameworks */,
+				9514E1CA0E6283B28809BC4C90CEA85A /* Pods */,
+				C4FAEA5773F58548BA23AABE7FD4AC38 /* Products */,
+				0BD4E8D2E8F73908AB62EBF54074661D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85A7E95CFDA84F62430A96312D52D8AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D29CB75201F9FD310092BA4F485F98 /* Info.plist */,
+				98839CCA76FCFC81118D751C85E7CB28 /* Interstellar.modulemap */,
+				931FA8BA6505B5B50D0B83C7FDEA97E1 /* Interstellar.xcconfig */,
+				0870CCDF409FE1F59C700AE47B5236D4 /* Interstellar-dummy.m */,
+				02B177EB3731291D21574B0EDD5E8916 /* Interstellar-prefix.pch */,
+				B65C9C15B3AF4405A32BCD07AA20BD90 /* Interstellar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Interstellar";
+			sourceTree = "<group>";
+		};
+		85D2DAB30701648BA3C6967D00358EE5 /* Pods-Interstellar_Extra_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA8F127E8D3BD772094C14C20FA19C /* Info.plist */,
+				2B5201FBC97713F2FD06708270D34D83 /* Pods-Interstellar_Extra_Tests.modulemap */,
+				4B4A3288302ADEC5579790C50DDA502E /* Pods-Interstellar_Extra_Tests-acknowledgements.markdown */,
+				FD0ABA0F537BD8288490212EE2CB8E6E /* Pods-Interstellar_Extra_Tests-acknowledgements.plist */,
+				0858BE079B1DC8F4F2DD423ACC351327 /* Pods-Interstellar_Extra_Tests-dummy.m */,
+				54A2A3837C58CE7290D4D9B78B333D7C /* Pods-Interstellar_Extra_Tests-frameworks.sh */,
+				80128281D895FCF9C60130A70EDBEE61 /* Pods-Interstellar_Extra_Tests-resources.sh */,
+				66C0E6ADA4F578E87E0B854472A67A5C /* Pods-Interstellar_Extra_Tests-umbrella.h */,
+				962ADDA4B493CE40E8CF139B68A245AF /* Pods-Interstellar_Extra_Tests.debug.xcconfig */,
+				1A1973A14DF72094D805AC8A4410C92C /* Pods-Interstellar_Extra_Tests.release.xcconfig */,
+			);
+			name = "Pods-Interstellar_Extra_Tests";
+			path = "Target Support Files/Pods-Interstellar_Extra_Tests";
+			sourceTree = "<group>";
+		};
+		8B46CCD7E611C9A1D6DD8D8A01CA1631 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27315C6A0538103CCDEB27CC0886873D /* Result.swift */,
+				78CD99725696F6C9B295B519DDD8AA40 /* Signal.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		91291DCF3C49527538CE6ADD3D35A018 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6160C28961B3CF36BF608B7CBC2060D8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9325E94B4C7BBECEB96633C70E349226 /* Warpdrive */ = {
+			isa = PBXGroup;
+			children = (
+				AFB76FF6A75957C1C8954F6C9DFFA620 /* Debounce.swift */,
+				5737D93CC0C323BC22E796D03A1A4385 /* Delay.swift */,
+				4460C2DD1045752F03A2E39458407BB4 /* Threading.swift */,
+				E00D27CED5E801A0F0098636CEDAD731 /* Waiting.swift */,
+			);
+			name = Warpdrive;
+			sourceTree = "<group>";
+		};
+		938DDAECAD53BEE35EF65C63DC7C4674 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB53204286EEC7E192197BE1F64BF021 /* Interstellar+Extra */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9514E1CA0E6283B28809BC4C90CEA85A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93250CCC087E8AD22B4E72805ECE4C9 /* Interstellar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A93250CCC087E8AD22B4E72805ECE4C9 /* Interstellar */ = {
+			isa = PBXGroup;
+			children = (
+				8B46CCD7E611C9A1D6DD8D8A01CA1631 /* Core */,
+				85A7E95CFDA84F62430A96312D52D8AB /* Support Files */,
+				9325E94B4C7BBECEB96633C70E349226 /* Warpdrive */,
+			);
+			path = Interstellar;
+			sourceTree = "<group>";
+		};
+		C4FAEA5773F58548BA23AABE7FD4AC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756D495712A0D0B1855C89288B96219B /* Interstellar.framework */,
+				5BA9D38BEF17C57C5412AF8EFD13895F /* Interstellar_Extra.framework */,
+				2B43FC362EB3B62B38A20A5EA5A0C1C3 /* Pods_Interstellar_Extra_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB53204286EEC7E192197BE1F64BF021 /* Interstellar+Extra */ = {
+			isa = PBXGroup;
+			children = (
+				DC83A6B66A9006B33071F56858ED00A5 /* Pod */,
+				CB6F6D12ED5BEC71543DC02C4F74B48B /* Support Files */,
+			);
+			name = "Interstellar+Extra";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB6F6D12ED5BEC71543DC02C4F74B48B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1FB0C54A24B96B6915D726014E7E6 /* Info.plist */,
+				4D36C2E97BFF3A2A5610C7AD9B8997F7 /* Interstellar+Extra.modulemap */,
+				96005787E9DE64DDE579D40D86C86F4E /* Interstellar+Extra.xcconfig */,
+				711632997690EA3904CD312DF7990597 /* Interstellar+Extra-dummy.m */,
+				38D7CEA6F44A1F63082F793CFE538A95 /* Interstellar+Extra-prefix.pch */,
+				24DF25062E3EF308997C3A19104C2B3C /* Interstellar+Extra-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Interstellar+Extra";
+			sourceTree = "<group>";
+		};
+		DC83A6B66A9006B33071F56858ED00A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				572E020FEB99DD8F59F1FCA747A79BED /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC735F809765237E7C9B2CCEAA29E427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511405C8720ADD5F8045EB26A9B56551 /* Interstellar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE746A1437F7A5E63210A74CAE5A93E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325436F9B0A07A7C6503C7307190DFA0 /* Interstellar+Extra-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E054DB5680847D7362EF9C51379F2442 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20560D3BECC5A57FE4FCDF7F7AECEB0E /* Pods-Interstellar_Extra_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05BAE4E81CAD53B81B53FCCF512AB8CC /* Interstellar+Extra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19D5DB366A7D10DF1F3DC6EB5548879 /* Build configuration list for PBXNativeTarget "Interstellar+Extra" */;
+			buildPhases = (
+				1DBFF439E6A811EDC8B12058799C1FA3 /* Sources */,
+				6E564B8888EC7D636ECC6A3B18DA70CE /* Frameworks */,
+				CE746A1437F7A5E63210A74CAE5A93E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648731F4A628DBDBD3BA4DEFFC27842B /* PBXTargetDependency */,
+			);
+			name = "Interstellar+Extra";
+			productName = "Interstellar+Extra";
+			productReference = 5BA9D38BEF17C57C5412AF8EFD13895F /* Interstellar_Extra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FF6D3934976DD19EBCDBE2ADA8F77C6 /* Pods-Interstellar_Extra_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EBAF3B6B5586D6E935C7A6A6596891 /* Build configuration list for PBXNativeTarget "Pods-Interstellar_Extra_Tests" */;
+			buildPhases = (
+				754125DABF4505E43C15DE8AC81DD5A3 /* Sources */,
+				BE2CD42B79A1FC9D795EC0E9BBF12D8D /* Frameworks */,
+				E054DB5680847D7362EF9C51379F2442 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D13FBA4A9B85536100C2770B928337F /* PBXTargetDependency */,
+				6B64B1FA4CE27CF53A6C694353EEB497 /* PBXTargetDependency */,
+			);
+			name = "Pods-Interstellar_Extra_Tests";
+			productName = "Pods-Interstellar_Extra_Tests";
+			productReference = 2B43FC362EB3B62B38A20A5EA5A0C1C3 /* Pods_Interstellar_Extra_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7740FD2244F1BCE3E4973E535661D5 /* Build configuration list for PBXNativeTarget "Interstellar" */;
+			buildPhases = (
+				7021C105140CB9C2D2E82BFC775B8F16 /* Sources */,
+				34FFFDAF2796AFF087435C3C2A1CAA78 /* Frameworks */,
+				BC735F809765237E7C9B2CCEAA29E427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interstellar;
+			productName = Interstellar;
+			productReference = 756D495712A0D0B1855C89288B96219B /* Interstellar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4FAEA5773F58548BA23AABE7FD4AC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */,
+				05BAE4E81CAD53B81B53FCCF512AB8CC /* Interstellar+Extra */,
+				1FF6D3934976DD19EBCDBE2ADA8F77C6 /* Pods-Interstellar_Extra_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DBFF439E6A811EDC8B12058799C1FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E23E3C422488CFCD59EF2602470493 /* Interstellar+Extra-dummy.m in Sources */,
+				C15BFAFFD1DEC6F067016B8BFB5D1BA5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7021C105140CB9C2D2E82BFC775B8F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA882DD7057124223239C23C65AF866 /* Debounce.swift in Sources */,
+				B26422642B27DCC9B2061C14BE36A68D /* Delay.swift in Sources */,
+				3957CC6C8D9002A58F124D4BC380DBF0 /* Interstellar-dummy.m in Sources */,
+				8626BCC3406A93A7D0CE502B9098086E /* Result.swift in Sources */,
+				29835DFCFAB89F3C72EE2E1E0FE8CB33 /* Signal.swift in Sources */,
+				8F78A3CE431B389C31970DC5591D0BE3 /* Threading.swift in Sources */,
+				6A863CB0CFAA89E17F4C040E075B1523 /* Waiting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754125DABF4505E43C15DE8AC81DD5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0343B89F2A0915D0B858E3791658E4 /* Pods-Interstellar_Extra_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648731F4A628DBDBD3BA4DEFFC27842B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Interstellar;
+			target = C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */;
+			targetProxy = 71A6711A35DEF201BD7D63A14A67F5DF /* PBXContainerItemProxy */;
+		};
+		6B64B1FA4CE27CF53A6C694353EEB497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Interstellar+Extra";
+			target = 05BAE4E81CAD53B81B53FCCF512AB8CC /* Interstellar+Extra */;
+			targetProxy = CCE4D6005C70486DF4413185FE2A9851 /* PBXContainerItemProxy */;
+		};
+		6D13FBA4A9B85536100C2770B928337F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Interstellar;
+			target = C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */;
+			targetProxy = 2762315FA220131AA89F49ADF648EA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34DB5256C5231E9DBF6DD7C08E3E7013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96005787E9DE64DDE579D40D86C86F4E /* Interstellar+Extra.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar+Extra/Interstellar+Extra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar+Extra/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Interstellar+Extra/Interstellar+Extra.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Interstellar_Extra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A63DC63B0755895A2EA944F12D0175B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931FA8BA6505B5B50D0B83C7FDEA97E1 /* Interstellar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar/Interstellar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Interstellar/Interstellar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Interstellar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A83CC3D9314268A4B8E4AA05FECD3D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96005787E9DE64DDE579D40D86C86F4E /* Interstellar+Extra.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar+Extra/Interstellar+Extra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar+Extra/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Interstellar+Extra/Interstellar+Extra.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Interstellar_Extra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C39725BF2B186333C9E28A83685865E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931FA8BA6505B5B50D0B83C7FDEA97E1 /* Interstellar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar/Interstellar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Interstellar/Interstellar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Interstellar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9431EDAA4B3CC2BEF08274564F7D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1973A14DF72094D805AC8A4410C92C /* Pods-Interstellar_Extra_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Interstellar_Extra_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Interstellar_Extra_Tests/Pods-Interstellar_Extra_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Interstellar_Extra_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F91A06D0BDE1C3477E0A8C7B1308F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962ADDA4B493CE40E8CF139B68A245AF /* Pods-Interstellar_Extra_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Interstellar_Extra_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Interstellar_Extra_Tests/Pods-Interstellar_Extra_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Interstellar_Extra_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EBAF3B6B5586D6E935C7A6A6596891 /* Build configuration list for PBXNativeTarget "Pods-Interstellar_Extra_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91A06D0BDE1C3477E0A8C7B1308F366 /* Debug */,
+				D9431EDAA4B3CC2BEF08274564F7D73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19D5DB366A7D10DF1F3DC6EB5548879 /* Build configuration list for PBXNativeTarget "Interstellar+Extra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB5256C5231E9DBF6DD7C08E3E7013 /* Debug */,
+				A83CC3D9314268A4B8E4AA05FECD3D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7740FD2244F1BCE3E4973E535661D5 /* Build configuration list for PBXNativeTarget "Interstellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63DC63B0755895A2EA944F12D0175B8 /* Debug */,
+				C39725BF2B186333C9E28A83685865E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

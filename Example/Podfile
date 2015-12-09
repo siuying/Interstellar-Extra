@@ -3,7 +3,7 @@ use_frameworks!
 
 
 target 'Interstellar_Extra_Tests', :exclusive => true do
-  pod "Interstellar_Extra", :path => "../"
+  pod "Interstellar+Extra", :path => "../"
 
   
 end

@@ -1,0 +1,22 @@
+PODS:
+  - Interstellar (1.4.0):
+    - Interstellar/Core (= 1.4.0)
+    - Interstellar/Warpdrive (= 1.4.0)
+  - Interstellar+Extra (0.1.0):
+    - Interstellar
+  - Interstellar/Core (1.4.0)
+  - Interstellar/Warpdrive (1.4.0):
+    - Interstellar/Core
+
+DEPENDENCIES:
+  - Interstellar+Extra (from `../`)
+
+EXTERNAL SOURCES:
+  Interstellar+Extra:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Interstellar: 40fc666872436d6c1b3524c59437ebdb5dec1c6a
+  Interstellar+Extra: bc8c8b1fd3dddb0e4707172bd283ff62b9f9748d
+
+COCOAPODS: 0.39.0
