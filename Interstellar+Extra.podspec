@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/siuyinh/Interstellar+Extra"
+  s.homepage         = "https://github.com/siuyinh/Interstellar-Extra"
   s.license          = 'MIT'
   s.author           = { "Francis Chong" => "francis@ignition.hk" }
   s.source           = { :git => "https://github.com/siuying/Interstellar-Extra.git", :tag => s.version.to_s }
